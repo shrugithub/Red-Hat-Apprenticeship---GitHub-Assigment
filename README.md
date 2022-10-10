@@ -23,15 +23,15 @@
                   if (i != 0)
                     return false;
              return true;
-    }
-}
+     }
+     }
 
 
-Input: s = "anagram", t = "nagaram"
-Output: true
+      Input: s = "anagram", t = "nagaram"
+     Output: true
 
-Input: s = "rat", t = "car"
-Output: false
+      Input: s = "rat", t = "car"
+      Output: false
 
 
 
@@ -89,9 +89,9 @@ Output: false
         for (String s : sumTo(target)) {
             System.out.println(count + ": " + s);
             count++;
-        }
-    }
-}
+              }
+                  }
+                   }
 
 
 
@@ -137,12 +137,12 @@ Code:
 
 
      Printing Matrix without transpose:
-1 3 4 
-2 4 3 
-3 4 5 
+       1 3 4 
+       2 4 3 
+       3 4 5 
 
      Printing Matrix After Transpose:
-1 2 3 
-3 4 4 
-4 3 5 
+       1 2 3 
+       3 4 4 
+       4 3 5 
 
