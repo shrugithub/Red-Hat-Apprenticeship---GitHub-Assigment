@@ -9,7 +9,9 @@
         
         
 
- CODE:   class AnagramCheck {
+ CODE:  
+ 
+      class AnagramCheck {
         public boolean isAnagram(String s, String t) {
                   
                 int[] alphabet = new int[26];
@@ -40,7 +42,9 @@ Output: false
       COMBINATION)
       
       
- CODE:     public class Main {
+ CODE:   
+         
+         public class Main {
            private static final String DIGITS = "123456789";
     
     public static List<String> sumTo(int target) {
@@ -96,7 +100,9 @@ Output: false
 
 
 
-Code:        public class MatrixTranspose{  
+Code:       
+
+      public class MatrixTranspose{  
 
                 public static void main(String args[]){  
 
